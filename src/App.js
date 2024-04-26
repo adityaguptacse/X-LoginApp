@@ -33,7 +33,7 @@ function App() {
         <form onSubmit={handleSubmit}>
           {error && <p>{error}</p>}
           <div>
-            <label htmlFor="username">Username</label>
+            <label htmlFor="username">Username:</label>
             <input 
             type="text"
             value={username}
@@ -44,7 +44,8 @@ function App() {
             }}
             required
             />
-            <label htmlFor="password">Password</label>
+            <br />
+            <label htmlFor="password">Password:</label>
             <input 
             type="text"
             value={password}
